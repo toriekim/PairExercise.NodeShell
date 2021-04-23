@@ -11,7 +11,10 @@ process.stdin.on('data', (data) => {
     }
     else if (cmd === 'ls') {
         const ls = require('./ls')
+<<<<<<< HEAD
         //const files = process.cwd();
+=======
+>>>>>>> 0aea4e7fb1282fc2c49724213b09a109bef2a4d3
         ls()
     }
     else{
